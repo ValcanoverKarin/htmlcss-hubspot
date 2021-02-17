@@ -8,6 +8,10 @@ body {
     font-family: "Roboto";
 }
 
+img {
+    width: 100%;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -76,3 +80,7 @@ body {
     font-size: 11px;
 }
 
+.logo img {
+    width: 80px;
+    padding: 20px 0px;
+}
