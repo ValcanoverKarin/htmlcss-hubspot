@@ -129,3 +129,11 @@ h1 {
     font-size: 11px;
     padding: 28px 0px;
 }
+
+/*section light green*/
+.light-green {
+    height: 65px;
+    background-color: #afebe4;
+    border-top: 2px solid #3b5062;
+    border-bottom: 2px solid #3b5062;
+}
