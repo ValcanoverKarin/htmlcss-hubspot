@@ -14,6 +14,15 @@ body {
     clear: both;
 }
 
+#button {
+    font-size: 11px;
+    color: white;
+    border: 1px solid #fe775a;
+    background-color: #fe775a;
+    padding: 7px 8px;
+    border-radius: 5px
+}
+
 .nav-top {
     background-color: #f4f9fd;
     border-bottom: 1px solid #4a606e;
@@ -54,4 +63,16 @@ body {
     margin-right: 10px;
 }
 
+.fa-search {
+    color: #12aac1;
+}
+
+.menu .login {
+    border: 1px solid #fe775a;
+    background-color: white;
+    color: #fe775a;
+    padding: 7px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+}
 
