@@ -228,6 +228,7 @@ h2 {
 .second-subsection .text {
     width: 100%;
     padding-bottom: 20px;
+    text-align: left;
 }
 
 .second-subsection #button {
@@ -255,14 +256,14 @@ h2 {
 .third-subsection .menu-left, .menu-central{
     width: 30%;
     background-color: white;
-    
+    padding: 20px 25px 20px 25px;
     border-radius: 5px;
 }
 
 .third-subsection .menu-right {
     width: 30%;
     background-color: white;
-    
+    padding: 20px 25px 20px 25px;
     border-radius: 5px;
 }
 
@@ -270,4 +271,31 @@ h2 {
     margin: 0px 44px;
 }
 
+.third-subsection .illustration {
+    padding-top: 0%;
+    padding-bottom: 20px;
+    height: 100px;
+}
+
+.third-subsection h3 {
+    text-align: center;
+    width: 100%;
+}
+
+.third-subsection .text {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.third-subsection .line {
+    width: 100%;
+    margin: auto;
+}
+
+.third-subsection h4 {
+    text-align: center;
+    width: 100%;
+    padding: 25px 0px
+}
 
