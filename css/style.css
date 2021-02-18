@@ -98,7 +98,6 @@ img {
     height: 540px;
     background-image: url(../img/jumbotron.png);
     background-size: cover;
-    }
 }
 
 .banner .img {
@@ -114,7 +113,11 @@ h1 {
     color: #33475b;
 }
 
-.teaser .text {
+.teaser {
+    padding: 50px 0px;
+}
+
+.text {
     color: #33475b;
     width: 50%;
     font-size: 13px;
@@ -139,4 +142,36 @@ h1 {
     background-color: #afebe4;
     border-top: 2px solid #3b5062;
     border-bottom: 2px solid #3b5062;
+}
+
+/*MAIN*/
+.central-section {
+    background-color: #f4f9fd;
+    
+}
+
+.illustration {
+    width: auto;
+    height: 200px;
+    padding: 40px 0px 5px 0px;
+    margin: 0 auto;
+}
+
+.illustration img {
+    height: 100%;
+    object-fit: contain;
+}
+
+h2 {
+    color: #33475b;
+    text-align: center;
+}
+
+.text-subsection {
+    text-align: center;
+}
+
+.text-subsection .text {
+    width: 100%;
+    padding: 25px 80px 
 }
