@@ -30,6 +30,19 @@ img {
     border-radius: 5px
 }
 
+#button-learn {
+    text-align: center;
+    padding: 20px 38px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fe775a;
+    background-color: #fe775a;
+    border-radius: 5px
+}
+
 h1, h2, h3, h4 {
     color: #33475b;
 }
@@ -231,12 +244,6 @@ h2 {
     text-align: left;
 }
 
-.second-subsection #button {
-    padding: 20px 26px;
-    display: inline-block;
-    margin-top: 20px;
-}
-
 .second-subsection .h4 {
     display: inline-block;
 }
@@ -299,3 +306,19 @@ h2 {
     padding: 25px 0px
 }
 
+.third-subsection .list li {
+    padding: 0%;
+    display: block;
+    text-align: left;
+}
+
+.third-subsection #button-learn {
+    margin: 40px 40px 0px 40px
+}
+
+
+
+.fourth-subsection {
+    background-color:lightseagreen;
+    height: 500px;
+}
