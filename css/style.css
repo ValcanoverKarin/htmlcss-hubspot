@@ -95,7 +95,10 @@ img {
 
 /*banner*/
 .banner {
-    height: 460px;
+    height: 540px;
+    background-image: url(../img/jumbotron.png);
+    background-size: cover;
+    }
 }
 
 .banner .img {
