@@ -46,6 +46,7 @@ img {
 h1, h2, h3, h4 {
     color: #33475b;
 }
+
 h1 {
     margin-left: 0;
     width: 50%;
@@ -244,10 +245,6 @@ h2 {
     text-align: left;
 }
 
-.second-subsection .h4 {
-    display: inline-block;
-}
-
 .line {
     border: 1px solid #33475b;
     width: 300px;
@@ -260,14 +257,7 @@ h2 {
     margin-top: 40px;
 }
 
-.third-subsection .menu-left, .menu-central{
-    width: 30%;
-    background-color: white;
-    padding: 20px 25px 20px 25px;
-    border-radius: 5px;
-}
-
-.third-subsection .menu-right {
+.third-subsection .menu-left, .third-subsection .menu-central, .third-subsection .menu-right{
     width: 30%;
     background-color: white;
     padding: 20px 25px 20px 25px;
