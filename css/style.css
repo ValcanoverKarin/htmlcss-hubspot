@@ -43,6 +43,11 @@ h2 {
     text-align: center;
 }
 
+.fa-check-circle {
+    color: #fe775a;
+    padding-right: 8px;
+}
+
 /*HEADER*/
 .nav-top {
     background-color: #f4f9fd;
@@ -195,6 +200,8 @@ h2 {
     padding: 25px 0px 45px 0px;
 }
 
+
+/*second subsection*/
 .second-subsection {
     background-color: white;
     
@@ -240,7 +247,27 @@ h2 {
     margin-left: 40px;
 }
 
-.fa-check-circle {
-    color: #fe775a;
-    padding-right: 8px;
+/*third subsection*/
+.third-subsection {
+    margin-top: 40px;
 }
+
+.third-subsection .menu-left, .menu-central{
+    width: 30%;
+    background-color: white;
+    
+    border-radius: 5px;
+}
+
+.third-subsection .menu-right {
+    width: 30%;
+    background-color: white;
+    
+    border-radius: 5px;
+}
+
+.third-subsection .menu-central {
+    margin: 0px 44px;
+}
+
+
