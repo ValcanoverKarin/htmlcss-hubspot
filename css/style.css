@@ -317,8 +317,18 @@ h2 {
 }
 
 
-
+/*fourth subsection*/
 .fourth-subsection {
-    background-color:lightseagreen;
+    margin-top: 40px;
+    background-image:linear-gradient(to );
     height: 500px;
+}
+
+#grad1 {
+    background-image: linear-gradient(to right,#01a5bb, #00baa8);
+}
+
+.fourth-subsection h2 {
+    color: white;
+    padding: 40px 0px;
 }
