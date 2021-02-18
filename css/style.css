@@ -322,13 +322,19 @@ h2 {
     margin-top: 40px;
     background-image:linear-gradient(to );
     height: 500px;
+    text-align: center;
 }
 
 #grad1 {
     background-image: linear-gradient(to right,#01a5bb, #00baa8);
 }
 
-.fourth-subsection h2 {
+.fourth-subsection h2 , .fourth-subsection .text {
     color: white;
-    padding: 40px 0px;
+    padding: 40px 0px 10px 0px;
+}
+
+.fourth-subsection .text {
+    padding: 15px 0px 30px 0px ;
+    width: 100%;
 }
