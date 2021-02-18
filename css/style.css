@@ -327,3 +327,43 @@ h2 {
     padding: 15px 0px 30px 0px ;
     width: 100%;
 }
+
+.grid-top {
+    margin-top: 25px;
+    border-bottom: 1px solid white;
+}
+
+
+.cell-one, .cell-two, .cell-three, .cell-four  {
+    width: 221px;
+}
+
+.cell-one, .cell-two, .cell-three {
+    border-right: 1px solid white;
+}
+
+.icon img {
+    padding: 20px;
+    height: 65px;
+}
+
+.grid-text {
+    color: white;
+}
+
+.grid-number {
+    font-size: 30px;
+}
+
+.più {
+    font-size: 20px;
+}
+
+.cell-text {
+    font-size: 10px;
+    padding: 10px 0px 20px 0px;
+}
+
+.grid-bottom {
+    padding-bottom: 90px;
+}
