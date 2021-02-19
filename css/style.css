@@ -20,17 +20,7 @@ img {
     clear: both;
 }
 
-#button {
-    font-size: 11px;
-    color: white;
-    text-decoration: none;
-    border: 1px solid #fe775a;
-    background-color: #fe775a;
-    padding: 7px 8px;
-    border-radius: 5px
-}
-
-#button-learn {
+.button-learn {
     text-align: center;
     padding: 20px 38px;
     display: inline-block;
@@ -121,6 +111,16 @@ h2 {
     font-size: 11px;
 }
 
+.menu .button {
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fe775a;
+    background-color: #fe775a;
+    padding: 7px 8px;
+    border-radius: 5px
+}
+
 .logo img {
     width: 80px;
     padding-top: 18px;
@@ -167,9 +167,14 @@ h2 {
     padding: 28px 0px;
 }
 
-.teaser #button {
+.banner .button {
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fe775a;
+    background-color: #fe775a;
     padding: 15px 30px;
-    display: inline-block;
+    border-radius: 5px
 }
 
 .subtext {
@@ -301,7 +306,7 @@ h2 {
     text-align: left;
 }
 
-.third-subsection #button-learn {
+.third-subsection .button-learn {
     margin: 40px 40px 0px 40px
 }
 
@@ -355,7 +360,7 @@ h2 {
     font-weight: 900;
 }
 
-.più {
+.piu {
     font-size: 20px;
     vertical-align: middle;
 }
@@ -416,7 +421,13 @@ h2 {
     width: 66%;
 }
 
-.sixth-subsection #button {
+.sixth-subsection .button {
+    border-radius: 5px;
+    background-color: #fe775a;
+    border: 1px solid #fe775a;
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
     display: inline-block;
     padding: 20px 38px
 }
@@ -452,11 +463,14 @@ h2 {
     padding: 10px 0px;
     display: block;
 }
-.final-section #button {
+.final-section .button {
+    border-radius: 5px;
+    text-decoration: none;
     font-size: 9px;
     color: #324a5b;
     background-color: white;
     border: 1px solid white;
+    padding: 8px;
 }
 
 .list .first {
@@ -471,4 +485,22 @@ h2 {
     display: inline-block;
     padding-right: 12px;
     font-size: 12px;
+}
+
+/*second line*/
+.languages li{
+    padding: 8px;
+    display: inline-block
+}
+
+.languages {
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+
+.second-line .line {
+    border: 0.8px solid white;
+    width: 886px;
+    padding: 0%;
+    margin: auto;
 }
