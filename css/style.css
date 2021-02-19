@@ -379,7 +379,7 @@ h2 {
     width: 28%;
 }
 
-.menu-left .text {
+.fifth-subsection .text {
     width: 75%;
 }
 
@@ -402,4 +402,31 @@ h2 {
     padding: 10px;
 }
 
+/*sixth-subsection*/
+.sixth-subsection {
+    background-color: white;
+}
+
+.sixth-subsection .menu-left {
+    width: 34%;
+    padding-top: 40px;
+}
+
+.sixth-subsection .menu-right {
+    width: 66%;
+}
+
+.sixth-subsection #button {
+    display: inline-block;
+    padding: 20px 38px
+}
+
+.sixth-subsection .text, .subtext {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.sixth-subsection img {
+    width: 230px;
+}
 
