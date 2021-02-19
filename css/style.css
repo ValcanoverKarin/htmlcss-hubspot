@@ -132,7 +132,7 @@ h2 {
 
 .list {
     list-style-type: none;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .list li {
@@ -351,12 +351,13 @@ h2 {
     color: white;
 }
 
-.grid-number {
+.number {
     font-size: 30px;
 }
 
 .più {
     font-size: 20px;
+    vertical-align: middle;
 }
 
 .cell-text {
@@ -367,3 +368,38 @@ h2 {
 .grid-bottom {
     padding-bottom: 90px;
 }
+
+/*fifth-subsection*/
+.fifth-subsection {
+    background-color: white;
+    padding-top: 28px;
+    color: #33475b;
+}
+.fifth-subsection .menu-left {
+    width: 28%;
+}
+
+.menu-left .text {
+    width: 75%;
+}
+
+.fifth-subsection .menu-right {
+    width: 72%;
+    text-align: center;
+}
+.fifth-subsection .list-loghi {
+    list-style-type: none;
+    padding: 0%;
+}
+
+.list-loghi li {
+    display: inline-block;
+}
+
+.list-loghi img{
+    width: 115px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
