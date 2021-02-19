@@ -216,9 +216,8 @@ h2 {
 
 
 /*second subsection*/
-.second-subsection {
+.second-subsection .wrap {
     background-color: white;
-    
     border-radius: 5px;
 }
 
@@ -335,7 +334,7 @@ h2 {
 
 
 .cell-one, .cell-two, .cell-three, .cell-four  {
-    width: 221px;
+    width: 25%;
 }
 
 .cell-one, .cell-two, .cell-three {
