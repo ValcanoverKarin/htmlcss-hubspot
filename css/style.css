@@ -352,6 +352,7 @@ h2 {
 
 .number {
     font-size: 30px;
+    font-weight: 900;
 }
 
 .più {
@@ -434,13 +435,13 @@ h2 {
 
 .final-section {
     background-color: #324a5b;
-    height: 400px;
 }
 
 .final-section .col {
     color: white;
 }
 
+/*first-line*/
 .column-one, .column-two, .column-three, .column-four {
     width: 25%;
 }
@@ -459,6 +460,15 @@ h2 {
 }
 
 .list .first {
+    font-weight: 900;
     font-size: 12px;
     padding-top: 20px
+    
+}
+
+.social li {
+    margin-top: 10px;
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 12px;
 }
