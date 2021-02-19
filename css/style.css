@@ -428,4 +428,37 @@ h2 {
 .sixth-subsection img {
     width: 230px;
 }
+/*END MAIN*/
 
+/*FOOTER*/
+
+.final-section {
+    background-color: #324a5b;
+    height: 400px;
+}
+
+.final-section .col {
+    color: white;
+}
+
+.column-one, .column-two, .column-three, .column-four {
+    width: 25%;
+}
+
+.final-section li {
+    color: white;
+    font-size: 10px;
+    padding: 10px 0px;
+    display: block;
+}
+.final-section #button {
+    font-size: 9px;
+    color: #324a5b;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.list .first {
+    font-size: 12px;
+    padding-top: 20px
+}
